@@ -5,12 +5,10 @@ const connectDB = require('./db_connect/connection');
 require('dotenv').config();
 
 //middleware
+app.use(express.static('./public'));
 app.use(express.json());
 
 //Routes
-app.get('/', (req, res) =>{
-    res.send('Task Manager API');
-})
 app.use('/api/v1/tasks', taskRoutes);
 
 const port = 3000;
