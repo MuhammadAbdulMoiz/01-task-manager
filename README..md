@@ -1,0 +1,2 @@
+# First Project: Node and Express Warm-Up API
+A compact starter backend designed to refresh your fundamentals in Node and Express. You’ll build a small API using core modules, routing, middleware, and basic controllers. The focus is on revisiting essential concepts: request handling, modular structure, error flow, and clean project organization. This project sets the foundation for more advanced APIs by reinforcing the underlying mechanics of how Node servers behave and how Express shapes them.
