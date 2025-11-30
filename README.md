@@ -47,7 +47,7 @@ nodeEX/
 1. Clone the repository
    ```bash
    git clone <repository-url>
-   cd nodeEX
+   cd 01-task-manager
    ```
 
 2. Install dependencies
@@ -87,7 +87,6 @@ Create a `.env` file based on `.env.example`:
 
 ```env
 PORT=3000
-NODE_ENV=development
 MONGODB_URI=mongodb://localhost:27017/taskmanager
 ```
 
