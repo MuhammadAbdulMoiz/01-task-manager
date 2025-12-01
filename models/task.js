@@ -4,7 +4,8 @@ const TaskSchema = new moongoose.Schema({
     name: {
         type: String,
         required: [true, 'Task name is required'],
-        trim: true
+        trim: true,
+        maxlength: [20, 'Task name cannot be more than 20 characters'],
     },
     completed: {
         type: Boolean,
