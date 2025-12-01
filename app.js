@@ -7,11 +7,11 @@ require('dotenv').config();
 
 //middleware
 app.use(express.static('./public'));
-app.use(notfound);
 app.use(express.json());
 
 //Routes
 app.use('/api/v1/tasks', taskRoutes);
+app.use(notfound);
 
 const port = process.env.PORT;
 const start = async ()=> {
